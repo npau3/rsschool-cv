@@ -8,7 +8,7 @@ Location: Nizhny Novgorod
 
 ### Contacts:
 Mail: prize890@gmail.com  
-Telegram: https://t.me/npau3  
+Telegram: [npau3](https://t.me/npau3)  
 Discord: npau3#6932 
   
 ***
