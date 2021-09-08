@@ -6,8 +6,8 @@ Location: Nizhny Novgorod
 ***
 ### Contacts:
 Mail: prize890@gmail.com  
-Discord: npau3#6932  
 Telegram: https://t.me/npau3  
+Discord: npau3#6932 
 ***
 ### About me:
 At the moment, I am actively studying Python, more specifically the Django framework, making a website using PostgreSQL databases.  
@@ -24,8 +24,8 @@ Studied development methodologies, TCP/IP, OSI
 I try to constantly learn something new.
 ***
 ### Example of code:
-You can see my code on my github account.
-And on Codewars: https://www.codewars.com/users/npau3/completed 
+You can see my code on my [GitHub account](https://github.com/npau3/LearningDjango).
+And on [Codewars](https://www.codewars.com/users/npau3/completed) 
 ***
 ### Special skills:
 1. Python
@@ -38,8 +38,7 @@ And on Codewars: https://www.codewars.com/users/npau3/completed
 8. Linux, Windows
 ***
 ### Languages:
-Russian(native)
-
+Russian(native)  
 English(B1)
 ***
 ### Education:
