@@ -2,13 +2,17 @@
 ### Personal information:
 Name : Artyom  
 Surname: Nikitin  
-Location: Nizhny Novgorod  
+Location: Nizhny Novgorod
+  
 ***
+
 ### Contacts:
 Mail: prize890@gmail.com  
 Telegram: https://t.me/npau3  
 Discord: npau3#6932 
+  
 ***
+
 ### About me:
 At the moment, I am actively studying Python, more specifically the Django framework, making a website using PostgreSQL databases.  
 Wrote an api using DRF for a ToDo site. I have a little git experience. 
@@ -22,11 +26,15 @@ In parallel with the JS course I am taking an online course in Automated Testing
 
 Studied development methodologies, TCP/IP, OSI  
 I try to constantly learn something new.
+
 ***
+
 ### Example of code:
 You can see my code on my [GitHub account](https://github.com/npau3/LearningDjango).
-And on [Codewars](https://www.codewars.com/users/npau3/completed) 
+And on [Codewars](https://www.codewars.com/users/npau3/completed)
+
 ***
+
 ### Special skills:
 1. Python
 2. Django
@@ -36,11 +44,15 @@ And on [Codewars](https://www.codewars.com/users/npau3/completed)
 6. Git/GitHub
 7. SQL (MySQL, PostgreSQL)
 8. Linux, Windows
+
 ***
+
 ### Languages:
 Russian(native)  
 English(B1)
+
 ***
+
 ### Education:
 Lobachevsky State University of Nizhni Novgorod (National Research University),  
 Institute of Economics and Entrepreneurship,  
