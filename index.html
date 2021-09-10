@@ -72,7 +72,7 @@
                     <pre>
 def dirReduc(arr):
     for i in range(len(arr)):
-        if len(arr)-1 <= i or len(arr) == 1:
+        if len(arr)-1 &lt;= i or len(arr) == 1:
             return arr
         if len(arr) > 1 and ((arr[i] == "NORTH" and arr[i+1] == "SOUTH") \
                             or (arr[i] == "SOUTH" and arr[i+1] == "NORTH") \
@@ -81,7 +81,8 @@ def dirReduc(arr):
             del arr[i+1]
             del arr[i]
             dirReduc(arr)
-    return arr</pre>
+    return arr
+                    </pre>
                 </div>
                 <p>You can see my code on my <a class="linkmenu" href="https://github.com/npau3/LearningDjango">GitHub account</a>.
                 And you can see my completed tasks on <a class="linkmenu" href="https://www.codewars.com/users/npau3/completed">Codewars</a></p>
