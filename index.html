@@ -1,111 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Artyom Nikitin CV</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="highlightjs/styles/github.min.css">
+        <script src="highlightjs/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
     </head>
     <body>
-        <header>
-            <h1>Hi, My Name is Artyom Nikitin</h1>
-        </header>
-        <main>
-            <div class="group">
+        <div class=wrapper>
+            <header>
+                <h1>Hi, My Name is Artyom Nikitin</h1>
                 <nav>
-                    <h2 class="hrework">Menu</h2>
-                    <ul class="navMenu">
-                        <li><a class="linkmenu" href="#PersInf">Personal information</a></li>
-                        <li><a class="linkmenu" href="#Contacts">Contacts</a></li>
-                        <li><a class="linkmenu" href="#AboutMe">About me</a></li>
-                        <li><a class="linkmenu" href="#ExampleOfCode">Example of code</a></li>
-                        <li><a class="linkmenu" href="#Skills">Special skills</a></li>
-                        <li><a class="linkmenu" href="#Languages">Languages</a></li>
-                        <li><a class="linkmenu" href="#Education">Education</a></li>
-                    </ul>
+                    <div class="div_flex">
+                        <a class="link-menu" href="#PersInf">Identification</a>
+                        <a class="link-menu" href="#Contacts">Contacts</a>
+                        <a class="link-menu" href="#AboutMe">About me</a>
+                        <a class="link-menu" href="#Languages">Languages</a>
+                        <a class="link-menu" href="#ExampleOfCode">My code</a>
+                        <a class="link-menu" href="#Skills">Skills</a>
+                        <a class="link-menu" href="#Education">Education</a>
+                        <a class="link-menu" href="#MyProjects">Projects</a>
+                    </div>
                 </nav>
-                <section class="personalInformation">
-                    <h2 class="hrework"  id="PersInf">Personal information</h2>
-                    <p>Name : Artyom</p>
-                    <p>Surname: Nikitin</p>
-                    <p>Location: Nizhny Novgorod</p>
-                    <h2 class="hrework" id="Contacts">Contacts</h2>
-                    <ul>
-                        <li>Mail: prize890@gmail.com</li>
-                        <li>Telegram: <a class="linkmenu" href="https://t.me/npau3">npau3</a></li>
-                        <li>Discord: npau3#6932</li>
-                    </ul>
+            </header>
+            <main class="main_flex">
+                <div class="left_part">
+                    <div>
+                        <img src="image/avatar.jpg" class="avatar" alt="avatar">
+                        <div class="left-part-information"> 
+                            <section id="PersInf">
+                                <h2>Personal information</h2>
+                                <ul class="information_ul">
+                                    <li>Name : Artyom</li>
+                                    <li>Surname: Nikitin</li>
+                                    <li>Location: Nizhny Novgorod</li>
+                                </ul>
+                            </section>
+                            <section id="Contacts">
+                                <h2>Contacts</h2>
+                                <ul class="information_ul">
+                                    <li>Mail: prize890@gmail.com</li>
+                                    <li>Telegram: <a class="link-menu-information" href="https://t.me/npau3">npau3</a></li>
+                                    <li>Discord: npau3#6932</li>
+                                </ul>
+                            </section>
+                            <section id="Languages">
+                                <h2>Languages</h2>
+                                <ul class="information_ul">
+                                    <li>Russian(native)</li>
+                                    <li>English(B1)</li>
+                                </ul>
+                            </section>
+                            <section id="Skills">
+                                <h2>Special skills</h2>
+                                <ul class="information_ul">
+                                    <li> Python</li>
+                                    <li> Django</li>
+                                    <li> Django Rest Framework(DRF)</li>
+                                    <li> Html, CSS</li>
+                                    <li> Pytest</li>
+                                    <li> Git/GitHub</li>
+                                    <li> SQL (MySQL, PostgreSQL)</li>
+                                    <li> Linux, Windows</li>
+                                </ul>
+                            </section>
+                        </div>    
+                    </div>
+                </div>
+                <div class="right_part">
+                    <div class="right_div">
+                        <section id="AboutMe">
+                            <h2>About me</h2>
+                            <p>At the moment, I am actively studying Python, more specifically the Django framework, making a website using PostgreSQL databases.
+                                Wrote an api using DRF for a ToDo site. I have a little git experience.</p>
+                            <p>With VirtualBox, I used Linux Debian with and without a graphical interface(Terminal).
+                                For a site deployment experience.(nginx, gunicorn, tmux...)</p>
+                            <p>I also tried the Pytest testing framework. (fixture, yield, mark.parametrize..)</p>
+                            <p>In parallel with the JS course I am taking an online course in Automated Testing at EPAM.</p>
+                            <p>Studied development methodologies, TCP/IP, OSI
+                                I try to constantly learn something new.</p>
+                        </section>
+                        <section id="Education">
+                            <h2>Education</h2>
+                            <p>Lobachevsky State University of Nizhny Novgorod (National Research University),<br>
+                            Institute of Economics and Entrepreneurship,<br>
+                            Applied Informatics<br>
+                            5course(distance learning)</p>
+                        </section>
+                        <article id="MyProjects">
+                            <h2>My projects</h2>
+                            <section>
+                                <h3>Проект 1</h3>
+                            </section>
+                            <section>
+                                <h3>Проект 2</h3>
+                            </section>
+                            <section>
+                                <h3>Проект 3</h3>
+                            </section>
+                            <p>You can see my code on my <a class="link-menu" href="https://github.com/npau3/LearningDjango">GitHub account</a>.
+                                And you can see my completed tasks on <a class="link-menu" href="https://www.codewars.com/users/npau3/completed">Codewars</a></p>
+                        </article>
+                    </div>
+                </div>
+            </main>
+            <div>
+                <section  id="ExampleOfCode">
+                    <h2 class="hrework">Example of code</h2>
+                    <div class="example_code">
+                        <pre><code class="Python">
+    def dirReduc(arr):
+        for i in range(len(arr)):
+            if len(arr)-1 &lt;= i or len(arr) == 1:
+                return arr
+            if len(arr) > 1 and ((arr[i] == "NORTH" and arr[i+1] == "SOUTH") \
+                                or (arr[i] == "SOUTH" and arr[i+1] == "NORTH") \
+                                or (arr[i] == "WEST" and arr[i+1] == "EAST") \
+                                or (arr[i] == "EAST" and arr[i+1] == "WEST")):
+                del arr[i+1]
+                del arr[i]
+                dirReduc(arr)
+        return arr
+                        </code></pre>
+                    </div>
                 </section>
-                <div class="avatar_block" >
-                    <img src="image/avatar.jpg" class="avatar" alt="avatar">
-                </div>
-            </div>
-            <article>
-                <h2 class="hrework" id="AboutMe">About me</h2>
-                <p>At the moment, I am actively studying Python, more specifically the Django framework, making a website using PostgreSQL databases.
-                    Wrote an api using DRF for a ToDo site. I have a little git experience.</p>
-                <p>With VirtualBox, I used Linux Debian with and without a graphical interface(Terminal).
-                    For a site deployment experience.(nginx, gunicorn, tmux...)</p>
-                <p>I also tried the Pytest testing framework. (fixture, yield, mark.parametrize..)</p>
-                <p>In parallel with the JS course I am taking an online course in Automated Testing at EPAM.</p>
-                <p>Studied development methodologies, TCP/IP, OSI
-                    I try to constantly learn something new.</p>
-            </article>
-            <section>
-            <h2 class="hrework" id="Skills">Special skills</h2>
-            <ol>
-                <li> Python</li>
-                <li> Django</li>
-                <li> Django Rest Framework(DRF)</li>
-                <li> Html, CSS</li>
-                <li> Pytest</li>
-                <li> Git/GitHub</li>
-                <li> SQL (MySQL, PostgreSQL)</li>
-                <li> Linux, Windows</li>
-            </ol>
-            </section>
-            <section>
-                <h2 class="hrework" id="ExampleOfCode">Example of code</h2>
-                <div class="example_code">
-                    <pre>
-def dirReduc(arr):
-    for i in range(len(arr)):
-        if len(arr)-1 &lt;= i or len(arr) == 1:
-            return arr
-        if len(arr) > 1 and ((arr[i] == "NORTH" and arr[i+1] == "SOUTH") \
-                            or (arr[i] == "SOUTH" and arr[i+1] == "NORTH") \
-                            or (arr[i] == "WEST" and arr[i+1] == "EAST") \
-                            or (arr[i] == "EAST" and arr[i+1] == "WEST")):
-            del arr[i+1]
-            del arr[i]
-            dirReduc(arr)
-    return arr
-                    </pre>
-                </div>
-                <p>You can see my code on my <a class="linkmenu" href="https://github.com/npau3/LearningDjango">GitHub account</a>.
-                And you can see my completed tasks on <a class="linkmenu" href="https://www.codewars.com/users/npau3/completed">Codewars</a></p>
-            </section>
-            <section>
-            <h2 class="hrework" id="Languages">Languages</h2>
-            <ul>
-                <li>Russian(native)</li>
-                <li>English(B1)</li>
-            </ul>
-            </section>
-            <section>
-            <h2 class="hrework" id="Education">Education</h2>
-            <p>Lobachevsky State University of Nizhni Novgorod (National Research University),<br>
-            Institute of Economics and Entrepreneurship,<br>
-            Applied Informatics<br>
-            5course(distance learning)</p>
-            </section>
-        </main>
-        <footer>
-            <a href="https://github.com/npau3"><img src="icons/git_logo.png" width="40" height="50" alt="github logo"></a>
-            <p>© 2021</p>
-            <a href="https://rs.school/js/"><img src="icons/rs_school_js.svg" width="50" height="50" alt="RSSchool icon"></a>
-        </footer>
+            </div>    
+            <footer>
+                <a href="https://github.com/npau3"><img src="icons/git_logo.png" width="40" height="50" alt="github logo"></a>
+                <p>© 2021</p>
+                <a href="https://rs.school/js/"><img src="icons/rs_school_js.svg" width="50" height="50" alt="RSSchool icon"></a>
+            </footer>
+        </div>
+        <script>
+            const anchors = document.querySelectorAll('a[href*="#"]')
+
+            for (let anchor of anchors) {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault()
+        
+                    const blockID = anchor.getAttribute('href').substr(1)
+                    
+                    document.getElementById(blockID).scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    })
+                })
+             }
+        </script>
     </body>
 </html>
