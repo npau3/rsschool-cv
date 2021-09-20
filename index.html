@@ -1,111 +1,216 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Artyom Nikitin CV</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="highlightjs/styles/github.min.css">
+        <script src="highlightjs/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
     </head>
     <body>
-        <header>
-            <h1>Hi, My Name is Artyom Nikitin</h1>
-        </header>
-        <main>
-            <div class="group">
-                <nav>
-                    <h2 class="hrework">Menu</h2>
-                    <ul class="navMenu">
-                        <li><a class="linkmenu" href="#PersInf">Personal information</a></li>
-                        <li><a class="linkmenu" href="#Contacts">Contacts</a></li>
-                        <li><a class="linkmenu" href="#AboutMe">About me</a></li>
-                        <li><a class="linkmenu" href="#ExampleOfCode">Example of code</a></li>
-                        <li><a class="linkmenu" href="#Skills">Special skills</a></li>
-                        <li><a class="linkmenu" href="#Languages">Languages</a></li>
-                        <li><a class="linkmenu" href="#Education">Education</a></li>
-                    </ul>
+        <div class=wrapper>
+            <header class="container">
+                <h1>Hi, My Name is Artyom Nikitin</h1>
+                <input id="toggle" type="checkbox">
+                <label class="toggle-container" for="toggle">
+                    <span class="button button-toggle"></span>
+                </label>
+                <nav class="nav">
+                    <a rel="nofollow" class="nav-item" href="#PersInf">Identification</a>
+                    <a rel="nofollow" class="nav-item" href="#Contacts">Contacts</a>
+                    <a rel="nofollow" class="nav-item" href="#AboutMe">About me</a>
+                    <a rel="nofollow" class="nav-item" href="#Languages">Languages</a>
+                    <a rel="nofollow" class="nav-item" href="#ExampleOfCode">My code</a>
+                    <a rel="nofollow" class="nav-item" href="#Skills">Skills</a>
+                    <a rel="nofollow" class="nav-item" href="#Education">Education</a>
+                    <a rel="nofollow" class="nav-item" href="#MyProjects">Projects</a>
                 </nav>
-                <section class="personalInformation">
-                    <h2 class="hrework"  id="PersInf">Personal information</h2>
-                    <p>Name : Artyom</p>
-                    <p>Surname: Nikitin</p>
-                    <p>Location: Nizhny Novgorod</p>
-                    <h2 class="hrework" id="Contacts">Contacts</h2>
-                    <ul>
-                        <li>Mail: prize890@gmail.com</li>
-                        <li>Telegram: <a class="linkmenu" href="https://t.me/npau3">npau3</a></li>
-                        <li>Discord: npau3#6932</li>
-                    </ul>
+            </header>
+            <header class="contain_second">
+                <h1>Hi, My Name is Artyom Nikitin</h1>
+                <nav>
+                    <div class="div_flex">
+                        <a class="link-menu" href="#PersInf">Identification</a>
+                        <a class="link-menu" href="#Contacts">Contacts</a>
+                        <a class="link-menu" href="#AboutMe">About me</a>
+                        <a class="link-menu" href="#Languages">Languages</a>
+                        <a class="link-menu" href="#ExampleOfCode">My code</a>
+                        <a class="link-menu" href="#Skills">Skills</a>
+                        <a class="link-menu" href="#Education">Education</a>
+                        <a class="link-menu" href="#MyProjects">Projects</a>
+                    </div>
+                </nav>
+            </header>
+            <main class="main_flex">
+                <div class="left_part">
+                    <div>
+                        <img src="image/avatar.jpg" class="avatar" alt="avatar">
+                        <div class="left-part-information"> 
+                            <section id="PersInf">
+                                <h2>Personal information</h2>
+                                <ul class="information_ul">
+                                    <li>Name : Artyom</li>
+                                    <li>Surname: Nikitin</li>
+                                    <li>Location: Nizhny Novgorod</li>
+                                </ul>
+                            </section>
+                            <section id="Contacts">
+                                <h2>Contacts</h2>
+                                <ul class="information_ul">
+                                    <li>Mail: prize890@gmail.com</li>
+                                    <li>Telegram: <a class="link-menu-information" href="https://t.me/npau3">npau3</a></li>
+                                    <li>Discord: npau3#6932</li>
+                                </ul>
+                            </section>
+                            <section id="Languages">
+                                <h2>Languages</h2>
+                                <ul class="information_ul">
+                                    <li>Russian(native)</li>
+                                    <li>English(B1)</li>
+                                </ul>
+                            </section>
+                            <section id="Skills">
+                                <h2>Special skills</h2>
+                                <ul class="information_ul">
+                                    <li> Python</li>
+                                    <li> Django</li>
+                                    <li> Django Rest Framework(DRF)</li>
+                                    <li> Html, CSS</li>
+                                    <li> Pytest</li>
+                                    <li> Git/GitHub</li>
+                                    <li> SQL (MySQL, PostgreSQL)</li>
+                                    <li> Linux, Windows</li>
+                                </ul>
+                            </section>
+                        </div>    
+                    </div>
+                </div>
+                <div class="right_part">
+                    <div class="right_div">
+                        <section id="AboutMe">
+                            <h2>About me</h2>
+                            <p>At the moment, I am actively studying Python, more specifically the Django framework, making a website using PostgreSQL databases.
+                                Wrote an api using DRF for a ToDo site. I have a little git experience.</p>
+                            <p>With VirtualBox, I used Linux Debian with and without a graphical interface(Terminal).
+                                For a site deployment experience.(nginx, gunicorn, tmux...)</p>
+                            <p>I also tried the Pytest testing framework. (fixture, yield, mark.parametrize..)</p>
+                            <p>In parallel with the JS course I am taking an online course in Automated Testing at EPAM.</p>
+                            <p>Studied development methodologies, TCP/IP, OSI
+                                I try to constantly learn something new.</p>
+                        </section>
+                        <section id="Education">
+                            <h2>Education</h2>
+                            <p>Lobachevsky State University of Nizhny Novgorod (National Research University),<br>
+                            Institute of Economics and Entrepreneurship,<br>
+                            Applied Informatics<br>
+                            5course(distance learning)</p>
+                        </section>
+                        <article id="MyProjects">
+                            <h2 class="projects_title">My projects</h2>
+                            <section>
+                                <h3>Markdown</h3>
+                                <figure>
+                                    <a href="https://npau3.github.io/rsschool-cv/cv" target="_blank"><img class="project_item" src="image/markdown.bmp" alt="Markdown"></a>
+                                    <figcaption>
+                                        <h4>Stack:</h4>
+                                        <h5>Git, Markdown</h5>
+                                        <p>First RSSchool project aimed at learning git and markdown</p>
+                                    </figcaption>
+                                </figure>
+                            </section>
+                            <section>
+                                <h3>Personal ToDo</h3>
+                                <figure>
+                                    <a href="https://github.com/npau3/LearningDjango" target="_blank"><img class="project_item" src="image/ToDo.bmp" alt="Personal ToDo"></a>
+                                    <figcaption>
+                                        <h4>Stack:</h4>
+                                        <h5>Python, Django, DRF, HTML, CSS,</h5>
+                                        <p>Django project oriented to learn Django and Django REST Framework</p>
+                                    </figcaption>
+                                </figure>
+                            </section>
+                            <section>
+                                <h3>First HTML CV</h3>
+                                <figure>
+                                    <a href="https://npau3.github.io/rsschool-cv" target="_blank"><img class="project_item" src="image/FirstCV.bmp" alt="First CV"></a>
+                                    <figcaption>
+                                        <h4>Stack:</h4>
+                                        <h5>HTML, CSS, Javascript</h5>
+                                        <p>First variation of HTML CV</p>
+                                    </figcaption>
+                                </figure>
+                            </section>
+                            <p>You can see my code on my <a class="cw_gh_link" href="https://github.com/npau3/LearningDjango">GitHub account</a>.
+                                And you can see my completed tasks on <a class="cw_gh_link" href="https://www.codewars.com/users/npau3/completed">Codewars</a></p>
+                        </article>
+                    </div>
+                </div>
+            </main>
+            <div>
+                <section  id="ExampleOfCode">
+                    <h2 class="hrework">Example of code</h2>
+                    <div class="example_code">
+                        <pre><code class="Python">
+    def dirReduc(arr):
+        for i in range(len(arr)):
+            if len(arr)-1 &lt;= i or len(arr) == 1:
+                return arr
+            if len(arr) > 1 and ((arr[i] == "NORTH" and arr[i+1] == "SOUTH") \
+                                or (arr[i] == "SOUTH" and arr[i+1] == "NORTH") \
+                                or (arr[i] == "WEST" and arr[i+1] == "EAST") \
+                                or (arr[i] == "EAST" and arr[i+1] == "WEST")):
+                del arr[i+1]
+                del arr[i]
+                dirReduc(arr)
+        return arr
+                        </code></pre>
+                    </div>
                 </section>
-                <div class="avatar_block" >
-                    <img src="image/avatar.jpg" class="avatar" alt="avatar">
-                </div>
-            </div>
-            <article>
-                <h2 class="hrework" id="AboutMe">About me</h2>
-                <p>At the moment, I am actively studying Python, more specifically the Django framework, making a website using PostgreSQL databases.
-                    Wrote an api using DRF for a ToDo site. I have a little git experience.</p>
-                <p>With VirtualBox, I used Linux Debian with and without a graphical interface(Terminal).
-                    For a site deployment experience.(nginx, gunicorn, tmux...)</p>
-                <p>I also tried the Pytest testing framework. (fixture, yield, mark.parametrize..)</p>
-                <p>In parallel with the JS course I am taking an online course in Automated Testing at EPAM.</p>
-                <p>Studied development methodologies, TCP/IP, OSI
-                    I try to constantly learn something new.</p>
-            </article>
-            <section>
-            <h2 class="hrework" id="Skills">Special skills</h2>
-            <ol>
-                <li> Python</li>
-                <li> Django</li>
-                <li> Django Rest Framework(DRF)</li>
-                <li> Html, CSS</li>
-                <li> Pytest</li>
-                <li> Git/GitHub</li>
-                <li> SQL (MySQL, PostgreSQL)</li>
-                <li> Linux, Windows</li>
-            </ol>
-            </section>
-            <section>
-                <h2 class="hrework" id="ExampleOfCode">Example of code</h2>
-                <div class="example_code">
-                    <pre>
-def dirReduc(arr):
-    for i in range(len(arr)):
-        if len(arr)-1 &lt;= i or len(arr) == 1:
-            return arr
-        if len(arr) > 1 and ((arr[i] == "NORTH" and arr[i+1] == "SOUTH") \
-                            or (arr[i] == "SOUTH" and arr[i+1] == "NORTH") \
-                            or (arr[i] == "WEST" and arr[i+1] == "EAST") \
-                            or (arr[i] == "EAST" and arr[i+1] == "WEST")):
-            del arr[i+1]
-            del arr[i]
-            dirReduc(arr)
-    return arr
-                    </pre>
-                </div>
-                <p>You can see my code on my <a class="linkmenu" href="https://github.com/npau3/LearningDjango">GitHub account</a>.
-                And you can see my completed tasks on <a class="linkmenu" href="https://www.codewars.com/users/npau3/completed">Codewars</a></p>
-            </section>
-            <section>
-            <h2 class="hrework" id="Languages">Languages</h2>
-            <ul>
-                <li>Russian(native)</li>
-                <li>English(B1)</li>
-            </ul>
-            </section>
-            <section>
-            <h2 class="hrework" id="Education">Education</h2>
-            <p>Lobachevsky State University of Nizhni Novgorod (National Research University),<br>
-            Institute of Economics and Entrepreneurship,<br>
-            Applied Informatics<br>
-            5course(distance learning)</p>
-            </section>
-        </main>
-        <footer>
-            <a href="https://github.com/npau3"><img src="icons/git_logo.png" width="40" height="50" alt="github logo"></a>
-            <p>© 2021</p>
-            <a href="https://rs.school/js/"><img src="icons/rs_school_js.svg" width="50" height="50" alt="RSSchool icon"></a>
-        </footer>
+            </div>    
+            <footer>
+                <a href="https://github.com/npau3"><img src="icons/git_logo.png" width="40" height="50" alt="github logo"></a>
+                <p>© 2021</p>
+                <a href="https://rs.school/js/"><img src="icons/rs_school_js.svg" width="50" height="50" alt="RSSchool icon"></a>
+            </footer>
+        </div>
+        <script>
+            const anchors = document.querySelectorAll('a[href*="#"]')
+
+            for (let anchor of anchors) {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault()
+        
+                    const blockID = anchor.getAttribute('href').substr(1)
+                    
+                    document.getElementById(blockID).scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    })
+                })
+            }
+            const forcc = `Вёрстка валидная +10\n
+Вёрстка семантическая(Есть ,больше 10 уникальных семантических тега) +20 (2 за каждый)\n
+Используются CSS стили(Бургер в том числе) +10\n
+Контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет тянется во всю ширину страницы +10\n
+Вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки(В примере кода может быть, что разрешено), при этом всё содержание страницы сохраняется +10\n
+Бургер есть. Появляется на 550пикселях и ниже. на 1024 пикселях меню схлопывается в 2 строки. Переход плавный +10\n
+На странице СV присутствует изображение - мой аватар, пропорции изображения не искажены, у изображения есть атрибут alt. +10\n
+Контакты для связи и перечень навыков оформлены в виде списка ul> li , но точки убрал - без них лучше смотрится  +10\n
+CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского +10\n
+CV содержит пример кода с подсветкой кода. Для подсветки кода использовал js-библиотеку highlight.js , надеюсь 2 файлов хватит для отображения, не хотелось выгружать всю папку +10\n
+CV содержит ссылки на выполненные проекты. Открываются в новых вкладках. Некоторые могут вести просто на гитхаб. Не знаю как проект деплоить на гитхаб с бекэндом +10\n
+CV выполнено на английском языке +10\n
+Выполнены требования к Pull Request (сейчас его делаю считай) +10\n
+Видео-резюме нет. 3-5минут рассказывать о себе, когда можно прочитать на странице за 1... +0\n
+На счёт дизайна всё субъективно, но мне кажется, что мой если сравнивать с примерами будет где-то посередине. Мы не дизайнеры так что +10\n
+150/160 из-за видео, остальное сделано`
+            console.log(forcc);
+        </script>
     </body>
 </html>
