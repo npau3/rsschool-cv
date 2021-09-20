@@ -15,7 +15,24 @@
     </head>
     <body>
         <div class=wrapper>
-            <header>
+            <header class="container">
+                <h1>Hi, My Name is Artyom Nikitin</h1>
+                <input id="toggle" type="checkbox">
+                <label class="toggle-container" for="toggle">
+                    <span class="button button-toggle"></span>
+                </label>
+                <nav class="nav">
+                    <a rel="nofollow" class="nav-item" href="#PersInf">Identification</a>
+                    <a rel="nofollow" class="nav-item" href="#Contacts">Contacts</a>
+                    <a rel="nofollow" class="nav-item" href="#AboutMe">About me</a>
+                    <a rel="nofollow" class="nav-item" href="#Languages">Languages</a>
+                    <a rel="nofollow" class="nav-item" href="#ExampleOfCode">My code</a>
+                    <a rel="nofollow" class="nav-item" href="#Skills">Skills</a>
+                    <a rel="nofollow" class="nav-item" href="#Education">Education</a>
+                    <a rel="nofollow" class="nav-item" href="#MyProjects">Projects</a>
+                </nav>
+            </header>
+            <header class="contain_second">
                 <h1>Hi, My Name is Artyom Nikitin</h1>
                 <nav>
                     <div class="div_flex">
@@ -95,18 +112,42 @@
                             5course(distance learning)</p>
                         </section>
                         <article id="MyProjects">
-                            <h2>My projects</h2>
+                            <h2 class="projects_title">My projects</h2>
                             <section>
-                                <h3>Проект 1</h3>
+                                <h3>Markdown</h3>
+                                <figure>
+                                    <a href="https://npau3.github.io/rsschool-cv/cv" target="_blank"><img class="project_item" src="image/markdown.bmp" alt="Markdown"></a>
+                                    <figcaption>
+                                        <h4>Stack:</h4>
+                                        <h5>Git, Markdown</h5>
+                                        <p>First RSSchool project aimed at learning git and markdown</p>
+                                    </figcaption>
+                                </figure>
                             </section>
                             <section>
-                                <h3>Проект 2</h3>
+                                <h3>Personal ToDo</h3>
+                                <figure>
+                                    <a href="https://github.com/npau3/LearningDjango" target="_blank"><img class="project_item" src="image/ToDo.bmp" alt="Personal ToDo"></a>
+                                    <figcaption>
+                                        <h4>Stack:</h4>
+                                        <h5>Python, Django, DRF, HTML, CSS,</h5>
+                                        <p>Django project oriented to learn Django and Django REST Framework</p>
+                                    </figcaption>
+                                </figure>
                             </section>
                             <section>
-                                <h3>Проект 3</h3>
+                                <h3>First HTML CV</h3>
+                                <figure>
+                                    <a href="https://npau3.github.io/rsschool-cv" target="_blank"><img class="project_item" src="image/FirstCV.bmp" alt="First CV"></a>
+                                    <figcaption>
+                                        <h4>Stack:</h4>
+                                        <h5>HTML, CSS, Javascript</h5>
+                                        <p>First variation of HTML CV</p>
+                                    </figcaption>
+                                </figure>
                             </section>
-                            <p>You can see my code on my <a class="link-menu" href="https://github.com/npau3/LearningDjango">GitHub account</a>.
-                                And you can see my completed tasks on <a class="link-menu" href="https://www.codewars.com/users/npau3/completed">Codewars</a></p>
+                            <p>You can see my code on my <a class="cw_gh_link" href="https://github.com/npau3/LearningDjango">GitHub account</a>.
+                                And you can see my completed tasks on <a class="cw_gh_link" href="https://www.codewars.com/users/npau3/completed">Codewars</a></p>
                         </article>
                     </div>
                 </div>
