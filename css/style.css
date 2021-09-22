@@ -123,6 +123,7 @@ footer {
 }
 .contain-second {
     display: none;
+    width: 100%;
 }
 .project_item {
     width: 85%;
@@ -268,7 +269,6 @@ h3, h4 , h5, figure {
     clear: both;
     color: transparent;
     font-size: 14px;
-    /* padding-left: 15px; */
     letter-spacing: -6.2px;
     height: 7px;
     line-height: 7px;
@@ -337,6 +337,7 @@ h3, h4 , h5, figure {
     }
     .right_part {
         width: 60%;
+        border-right: 0;
     }
 }
 @media screen and (max-width: 550px){
